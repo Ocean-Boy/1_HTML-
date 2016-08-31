@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <mate  name="keywords" content="HTNL,段落">
+  <mate name="descirpt " content="HTML 段落
+段落是通过 <p> 标签定义的">
+  <title> W3 HTML 段落</title>
+</head>
+<body>
+  <h1>HTML段落</h1>
+  <hr>
+  <div>
+  <a href="http://www.w3school.com.cn/html/html_headings.asp">上一节</a>
+  <a href="http://www.w3school.com.cn/html/html_headings.asp">下一节</a>
+  <hr>
+  <h3><p>可以把 HTML 文档分割为若干段落。</p>
+      <hr>
+      <p>HTML 段落</p>
+  </h3>
+  <h4> 段落是通过< p >标签定义的。 </h4>
+  <pre><strong>实例</strong>
+< p >This is a paragraph</ p >
+< p >This is another paragraph</ p ></pre>
+<pre><strong>注释</strong>：浏览器会自动地在段落的前后添加空行。</pre>
+<pre><strong>提示：</strong>使用空的段落标记 < p ></ p > 去插入一个空行是个坏习惯。用 < br /> 标签代替它！（但是不要用 < br />
+标签去创建列表。不要着急，您将在稍后的篇幅学习到 HTML 列表。）</pre>
+</div>
+<hr>
+<div>
+  <strong>不要忘记结束标签</strong>
+  <pre>即使忘了使用结束标签，大多数浏览器也会正确地将 HTML 显示出来：</pre>
+  <pre><strong>实例</strong>
+< p >This is a paragraph
+< p > is another paragraph</pre>
+<pre>上面的例子在大多数浏览器中都没问题，但不要依赖这种做法。忘记使用结束标签会产生意想不到的结果和错误。</pre>
+<pre><strong>注释</strong>：在未来的 HTML 版本中，不允许省略结束标签。</pre>
+<pre><strong>提示：</strong>通过结束标签来关闭 HTML 是一种经得起未来考验的 HTML 编写方法。清楚地标记某个元素在何处开始，并在何处结束，
+不论对您还是对浏览器来说，都会使代码更容易理解。</pre>
+</div>
+<hr>
+<div>
+<strong>HTML 折行</strong>
+<h5><p>如果您希望在不产生一个新段落的情况下进行换行（新行），请使用 < br /> 标签：</p></h5>
+<pre>< p >This is< br />a para< br />graph with line breaks</ p ></pre>
+<h5><p>< br /> 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，因此它没有结束标签。</p></h5>
+</div>
+<hr>
+<div>
+
+<pre>< br >还是< br />  </pre>
+<pre>您也许发现 < br  >与 < br /> 很相似。</pre>
+<pre>在 XHTML、XML 以及未来的 HTML 版本中，不允许使用没有结束标签（闭合标签）的HTML元素。</pre>
+<pre>即使< br>在所有浏览器中的显示都没有问题，使用< br />也是<strong>更长远的保障。</strong></pre>
+</div>
+<hr>
+<div >
+<strong>HTML 输出 - 有用的提示</strong>
+<pre>我们无法确定 HTML 被显示的确切效果。屏幕的大小，以及对窗口的调整都可能导致不同的结果。</pre>
+<pre>对于 HTML，您无法通过在 HTML 代码中添加额外的空格或换行来改变输出的效果。</pre>
+<pre>当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。需要注意的是，HTML 代码中的所有连续的空行
+（换行）也被显示为一个空格。
+</pre>
+<pre>（这个例子演示了一些 HTML 格式化方面的问题）</pre>
+</div>
+<hr>
+<div>
+  <strong>来自本页的实例</strong>
+  <a href="http://www.w3school.com.cn/tiy/t.asp?f=html_paragraphs1">HTML 段落</a>
+<pre>如何在浏览器中显示 HTML 段落。</pre>
+<a href="http://www.w3school.com.cn/tiy/t.asp?f=html_paragraphs">换行</a>
+<pre>在 HTML 文档中使用换行。</pre>
+<a href="http://www.w3school.com.cn/tiy/t.asp?f=html_poem">在 HTML 代码中的排版一首唐诗</a>
+<pre>浏览器在显示 HTML 时，会省略源代码中多余的空白字符（空格或回车等）。</pre>
+<strong>更多实例</strong>
+
+<p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_paragraphs2">更多段落</a></p>
+<pre>段落的默认行为。</pre>
+</div>
+<hr>
+<div>
+<strong>HTML 标签参考手册</strong>
+<pre>W3School 的标签参考手册提供了有关 HTML 元素及其属性的更多信息。</pre>
+<table border="1">
+
+<tr><th>标签</th><th>描述</th></tr>
+<tr><td>
+  <a href="http://www.w3school.com.cn/tags/tag_p.asp">< p ></a>
+  </td>
+  <td>定义段落。</td>
+</tr>
+<tr><td><a href="http://www.w3school.com.cn/tags/tag_br.asp">< br/ ></a></td>
+<td>插入单个折行（换行）。</td></tr>
+</table>
+</div>
+<hr>
+<div>
+<a href="http://www.w3school.com.cn/html/html_headings.asp">上一节</a>
+<a href="http://www.w3school.com.cn/html/html_headings.asp">下一节</a>
+<hr>
+</body>
+</html>
